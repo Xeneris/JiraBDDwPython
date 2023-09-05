@@ -9,7 +9,6 @@ class LoginTests(LoginPage, Navbar):
     def setUp(self):
         super().setUp()
         self.maximize_window()
-
         self.navigate("https://jira-auto.codecool.metastage.net/secure/Dashboard.jspa")
 
     def test_1_successful_login(self):
